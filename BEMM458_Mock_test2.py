@@ -1,10 +1,10 @@
 #######################################################################################################################################################
 # 
-# Name:
-# SID:
-# Exam Date:
-# Module:
-# Github link for this assignment:  
+# Name:AARYA RAJ
+# SID:740097177
+# Exam Date:27/03/2025
+# Module:PROGRAMMING FOR BUSINESS ANLYTICS
+# Github link for this assignment:  https://github.com/UniversityExeterBusinessSchool/mock-test-2-aaryaraj15
 #
 #######################################################################################################################################################
 # Instruction 1. Read each question carefully and complete the scripts as instructed.
@@ -22,8 +22,21 @@
 # You are given a list of numbers representing weekly sales in units.
 weekly_sales = [120, 85, 100, 90, 110, 95, 130]
 
+average_sales= sum(weekly_sales)/len(weekly_sales)
+print("Average : {average_sales}")
+for sales in weekly_sales:
+    if sales>average_sales:
+        print("{sales} is above average" )
+        else
+        print("{sales} is below average")
+        
+
 # Write a for loop that iterates through the list and prints whether each week's sales were above or below the average sales for the period.
 # Calculate and print the average sales.
+
+
+
+
 
 #######################################################################################################################################################
 
