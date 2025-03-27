@@ -64,6 +64,8 @@ print(positions)
 # 3. Net Promoter Score (NPS): Calculate as (Promoters - Detractors) / Total Respondents * 100.
 # 4. Return on Investment (ROI): Calculate as (Net Gain from Investment / Investment Cost) * 100.
 
+kjdflkhsdlhgvjslhsl
+
 #######################################################################################################################################################
 
 # Question 4 - Data Analysis with Pandas
