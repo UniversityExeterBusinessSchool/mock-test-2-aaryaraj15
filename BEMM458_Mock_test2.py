@@ -42,7 +42,14 @@ for sales in weekly_sales:
 
 # Question 2 - String Manipulation
 # A customer feedback string is provided:
+
 customer_feedback = """The product was good but could be improved. I especially appreciated the customer support and fast response times."""
+start_good = feedback.find("good")
+end_good = start_good   = len("good")
+start_improved = feedback.find("improved")
+end_improved = start_improved + len("improved")
+postions = [("good", (start_good ,end_good)) , ("improved", (start_improved,end_improved))]
+print(positions)
 
 # Find the first and last occurrence of the words 'good' and 'improved' in the feedback using string methods.
 # Store each position in a list as a tuple (start, end) for both words and print the list.
